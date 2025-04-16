@@ -96,16 +96,16 @@ namespace E_commerce_program.Models
                 );
 
             modelBuilder.Entity<Order>().HasData(
-                new Order { OrderId = 1, OrderDate = new DateTime(2025 - 03 - 01), CustomerId = 1, TotalAmount = 11999, Status = "Levererad" },
-                new Order { OrderId = 2, OrderDate = new DateTime(2025 - 03 - 05), CustomerId = 2, TotalAmount = 9798, Status = "Levererad "},
-                new Order { OrderId = 3, OrderDate = new DateTime(2025 - 03 - 10), CustomerId = 3, TotalAmount = 18999, Status = "Behandlas" },
-                new Order { OrderId = 4, OrderDate = new DateTime(2025 - 03 - 12), CustomerId = 4, TotalAmount = 3499, Status = "Levererad" },
-                new Order { OrderId = 5, OrderDate = new DateTime(2025 - 03 - 15), CustomerId = 5, TotalAmount = 16994, Status = "Skickad" },
-                new Order { OrderId = 6, OrderDate = new DateTime(2025 - 02 - 20), CustomerId = 1, TotalAmount = 899, Status = "Levererad" },
-                new Order { OrderId = 7, OrderDate = new DateTime(2025 - 02 - 25), CustomerId = 3, TotalAmount = 2498, Status = "Levererad" },
-                new Order { OrderId = 8, OrderDate = new DateTime(2025 - 03 - 18), CustomerId = 2, TotalAmount = 1598, Status = "Skickad" },
-                new Order { OrderId = 9, OrderDate = new DateTime(2025 - 03 - 20), CustomerId = 4, TotalAmount = 5794, Status = "Behandlas" },
-                new Order { OrderId = 10, OrderDate = new DateTime(2025 - 03 - 22), CustomerId = 5, TotalAmount = 1299, Status = "Behandlas" }
+                new Order { OrderId = 1, OrderDate = new DateTime(2025, 03, 01), CustomerId = 1, TotalAmount = 11999, Status = "Levererad" },
+                new Order { OrderId = 2, OrderDate = new DateTime(2025, 03, 05), CustomerId = 2, TotalAmount = 9798, Status = "Levererad "},
+                new Order { OrderId = 3, OrderDate = new DateTime(2025, 03, 10), CustomerId = 3, TotalAmount = 18999, Status = "Behandlas" },
+                new Order { OrderId = 4, OrderDate = new DateTime(2025, 03, 12), CustomerId = 4, TotalAmount = 3499, Status = "Levererad" },
+                new Order { OrderId = 5, OrderDate = new DateTime(2025, 03, 15), CustomerId = 5, TotalAmount = 16994, Status = "Skickad" },
+                new Order { OrderId = 6, OrderDate = new DateTime(2025, 02, 20), CustomerId = 1, TotalAmount = 899, Status = "Levererad" },
+                new Order { OrderId = 7, OrderDate = new DateTime(2025, 02, 25), CustomerId = 3, TotalAmount = 2498, Status = "Levererad" },
+                new Order { OrderId = 8, OrderDate = new DateTime(2025, 03, 18), CustomerId = 2, TotalAmount = 1598, Status = "Skickad" },
+                new Order { OrderId = 9, OrderDate = new DateTime(2025, 03, 20), CustomerId = 4, TotalAmount = 5794, Status = "Behandlas" },
+                new Order { OrderId = 10, OrderDate = new DateTime(2025, 03, 22), CustomerId = 5, TotalAmount = 1299, Status = "Behandlas" }
                 );
 
             modelBuilder.Entity<OrderDetail>().HasData(

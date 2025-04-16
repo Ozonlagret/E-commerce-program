@@ -178,7 +178,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 1,
                             CustomerId = 1,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2021),
+                            OrderDate = new DateTime(2025, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Levererad",
                             TotalAmount = 11999.0
                         },
@@ -186,7 +186,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 2,
                             CustomerId = 2,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2017),
+                            OrderDate = new DateTime(2025, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Levererad ",
                             TotalAmount = 9798.0
                         },
@@ -194,7 +194,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 3,
                             CustomerId = 3,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2012),
+                            OrderDate = new DateTime(2025, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Behandlas",
                             TotalAmount = 18999.0
                         },
@@ -202,7 +202,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 4,
                             CustomerId = 4,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2010),
+                            OrderDate = new DateTime(2025, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Levererad",
                             TotalAmount = 3499.0
                         },
@@ -210,7 +210,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 5,
                             CustomerId = 5,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2007),
+                            OrderDate = new DateTime(2025, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Skickad",
                             TotalAmount = 16994.0
                         },
@@ -218,7 +218,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 6,
                             CustomerId = 1,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2003),
+                            OrderDate = new DateTime(2025, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Levererad",
                             TotalAmount = 899.0
                         },
@@ -226,7 +226,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 7,
                             CustomerId = 3,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(1998),
+                            OrderDate = new DateTime(2025, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Levererad",
                             TotalAmount = 2498.0
                         },
@@ -234,7 +234,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 8,
                             CustomerId = 2,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2004),
+                            OrderDate = new DateTime(2025, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Skickad",
                             TotalAmount = 1598.0
                         },
@@ -242,7 +242,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 9,
                             CustomerId = 4,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2002),
+                            OrderDate = new DateTime(2025, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Behandlas",
                             TotalAmount = 5794.0
                         },
@@ -250,7 +250,7 @@ namespace E_commerce_program.Migrations
                         {
                             OrderId = 10,
                             CustomerId = 5,
-                            OrderDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2000),
+                            OrderDate = new DateTime(2025, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Status = "Behandlas",
                             TotalAmount = 1299.0
                         });

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace E_commerce_program.Migrations
 {
     /// <inheritdoc />
-    public partial class InitMigration : Migration
+    public partial class initMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -181,16 +181,16 @@ namespace E_commerce_program.Migrations
                 columns: new[] { "OrderId", "CustomerId", "OrderDate", "Status", "TotalAmount" },
                 values: new object[,]
                 {
-                    { 1, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2021), "Levererad", 11999.0 },
-                    { 2, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2017), "Levererad ", 9798.0 },
-                    { 3, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2012), "Behandlas", 18999.0 },
-                    { 4, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2010), "Levererad", 3499.0 },
-                    { 5, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2007), "Skickad", 16994.0 },
-                    { 6, 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2003), "Levererad", 899.0 },
-                    { 7, 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(1998), "Levererad", 2498.0 },
-                    { 8, 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2004), "Skickad", 1598.0 },
-                    { 9, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2002), "Behandlas", 5794.0 },
-                    { 10, 5, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified).AddTicks(2000), "Behandlas", 1299.0 }
+                    { 1, 1, new DateTime(2025, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Levererad", 11999.0 },
+                    { 2, 2, new DateTime(2025, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified), "Levererad ", 9798.0 },
+                    { 3, 3, new DateTime(2025, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified), "Behandlas", 18999.0 },
+                    { 4, 4, new DateTime(2025, 3, 12, 0, 0, 0, 0, DateTimeKind.Unspecified), "Levererad", 3499.0 },
+                    { 5, 5, new DateTime(2025, 3, 15, 0, 0, 0, 0, DateTimeKind.Unspecified), "Skickad", 16994.0 },
+                    { 6, 1, new DateTime(2025, 2, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "Levererad", 899.0 },
+                    { 7, 3, new DateTime(2025, 2, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), "Levererad", 2498.0 },
+                    { 8, 2, new DateTime(2025, 3, 18, 0, 0, 0, 0, DateTimeKind.Unspecified), "Skickad", 1598.0 },
+                    { 9, 4, new DateTime(2025, 3, 20, 0, 0, 0, 0, DateTimeKind.Unspecified), "Behandlas", 5794.0 },
+                    { 10, 5, new DateTime(2025, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "Behandlas", 1299.0 }
                 });
 
             migrationBuilder.InsertData(
